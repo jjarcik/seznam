@@ -3,6 +3,7 @@
         { 
             "id": 1,
             "name": "Xiaomi Mi Note 10",
+            "price": "11 700 Kč – 12 990 Kč",
             "image": "https://d25-a.sdn.cz/d_25/c_img_E_Ia/YWw8gc.jpeg?fl=res,350,350,1|webp,80",
             "perex": "Xiaomi představil novou smartphonovou špičku. Elegantní a superrychlý smartphone Xiaomi Mi Note 10 vyniká dlouhou výdrží, rychlým…",
             "text": "Xiaomi představil novou smartphonovou špičku. Elegantní a superrychlý smartphone Xiaomi Mi Note 10 vyniká dlouhou výdrží, rychlým a stabilním provozem, ale především svým pokročilým pětinásobným fotoaparátem",
@@ -15,6 +16,7 @@
         {
             "id": 2,
             "name": "Nokia 2.3",
+            "price": "5 700 Kč – 11 021 Kč",
             "image": "https://d25-a.sdn.cz/d_25/c_img_G_Iw/2ODs5t.jpeg?fl=res,350,350,1|webp,80",
             "perex": "U tohoto chytrého telefonu s nízkou cenou získáte solidního partnera pro komunikaci i zábavu. Pobavte se streamováním médií…",
             "text": "U tohoto chytrého telefonu s nízkou cenou získáte solidního partnera pro komunikaci i zábavu. Pobavte se streamováním médií pomocí připojení LTE, určitě oceníte také systém Android One, v jehož rámci máte zaručené aktualizace.",
@@ -26,7 +28,8 @@
         },
         {
             "id": 3,
-            "name": "Motorola One Fusion+" ,
+            "name": "Motorola One Fusion+",
+            "price": "10 700 Kč – 17 021 Kč",
             "image": "https://d25-a.sdn.cz/d_25/c_img_gY_G/prexoi.jpeg?fl=res,350,350,1|webp,80",
             "perex": "Motorola One Fusion+ se může pochlubit čtyřnásobnou soustavou kvalitních objektivů na zadní straně telefonu, se kterými pořídíte…",
             "text": "Motorola One Fusion+ se může pochlubit čtyřnásobnou soustavou kvalitních objektivů na zadní straně telefonu, se kterými pořídíte perfektně vyladěné fotky. Navíc může nabídnout 5000mAh baterii, která zajistí dlouhou výdrž při maximálním využívání.",

@@ -12,3 +12,9 @@
     max-height: 128px;
     padding: 8px;
 }
+
+.name{
+    color: #dc1f27;
+    font-weight: bold;
+    display: block
+}
