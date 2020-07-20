@@ -1,4 +1,6 @@
 import React from 'react'
+import InputWrapper from '../../blocks/InputWrapper'
+import styles from './Select.module.css'
 
 type Option = {
   label: string | number
@@ -14,9 +16,8 @@ interface SelectProps {
 }
 
 const Select: React.FC<SelectProps> = ({ label, options, name, onChange, value }: SelectProps) => (
-  <div>
-    <label>{label}</label>
-    <select name={name} onChange={onChange} value={value || ''}>
+  <InputWrapper label={label}>
+    <select name={name} onChange={onChange} value={value || ''} className={styles.base}>
       <option value="">Vyberte hodnotu</option>
       {options.map((v, k) => (
         <option key={k} value={v.value || ''}>
@@ -24,7 +25,7 @@ const Select: React.FC<SelectProps> = ({ label, options, name, onChange, value }
         </option>
       ))}
     </select>
-  </div>
+  </InputWrapper>
 )
 
 export default Select

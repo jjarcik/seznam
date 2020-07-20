@@ -9,12 +9,28 @@
 }
 
 .image{
-    max-height: 128px;
+    max-height: 100%;
+    max-width: 100%;
     padding: 8px;
+    margin-right: 8px;
+}
+
+.imageWrapper{
+    height: 128px; 
+    width: 128px;
+    display: flex;
+    flex: none;
+    justify-content: center;
+    align-items: center;
 }
 
 .name{
     color: #dc1f27;
     font-weight: bold;
-    display: block
+    display: block;
+    margin-bottom: 10px;;
+}
+
+.perex{
+    font-size: 12px;
 }

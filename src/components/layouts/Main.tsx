@@ -6,7 +6,7 @@ export interface Props {
   children: React.ReactNode
 }
 
-const Main = ({ children }: Props) => (
+const Main: React.FC<Props> = ({ children }: Props) => (
   <>
     <Header />
     {children}

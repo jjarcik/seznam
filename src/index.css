@@ -10,49 +10,6 @@ a {
   text-decoration: none;
 }
 
-/*
-@font-face{
-  font-family:TriviaSeznam;
-  src:url(https://www.zbozi.cz/fonts/TriviaSeznam.eot);
-  src:url(https://www.zbozi.cz/fonts/TriviaSeznam.eot?#iefix) format("embedded-opentype"),
-    url(https://www.zbozi.cz/fonts/TriviaSeznam.woff) format("woff"),
-    url(https://www.zbozi.cz/fonts/TriviaSeznam.ttf) format("truetype"),
-    url(https://www.zbozi.cz/fonts/TriviaSeznam.svg#Trivia) format("svg");
-    font-weight:400;
-    font-style:normal
+*, *::before, *::after {
+  box-sizing: border-box;
 }
-  
-@font-face{
-    font-family:TriviaSeznam;
-    src:url(https://www.zbozi.cz/fonts/TriviaSeznam-Bold.eot);
-    src:url(https://www.zbozi.cz/fonts/TriviaSeznam-Bold.eot?#iefix) format("embedded-opentype"),
-    url(https://www.zbozi.cz/fonts/TriviaSeznam-Bold.woff) format("woff"),
-    url(https://www.zbozi.cz/fonts/TriviaSeznam-Bold.ttf) format("truetype"),
-    url(https://www.zbozi.cz/fonts/TriviaSeznam-Bold.svg#Trivia) format("svg");
-    font-weight:700;
-    font-style:normal
-}
-
-@font-face{
-  font-family:TriviaSeznam;
-  src:url(https://www.zbozi.cz/fonts/TriviaSeznam-Italic.eot);
-  src:url(https://www.zbozi.cz/fonts/TriviaSeznam-Italic.eot?#iefix) format("embedded-opentype"),
-  url(https://www.zbozi.cz/fonts/TriviaSeznam-Italic.woff) format("woff"),
-  url(https://www.zbozi.cz/fonts/TriviaSeznam-Italic.ttf) format("truetype"),
-  url(https://www.zbozi.cz/fonts/TriviaSeznam-Italic.svg#Trivia) format("svg");
-  font-weight:400;
-  font-style:italic
-}
-
-@font-face{
-  font-family:TriviaSeznam;
-  src:url(https://www.zbozi.cz/fonts/TriviaSeznam-BoldItalic.eot);
-  src:url(https://www.zbozi.cz/fonts/TriviaSeznam-BoldItalic.eot?#iefix)
-  format("embedded-opentype"),url(https://www.zbozi.cz/fonts/TriviaSeznam-BoldItalic.woff)
-  format("woff"),url(https://www.zbozi.cz/fonts/TriviaSeznam-BoldItalic.ttf)
-  format("truetype"),url(https://www.zbozi.cz/fonts/TriviaSeznam-BoldItalic.svg#Trivia)
-  format("svg");
-  font-weight:700;
-  font-style:italic
-}
-*/

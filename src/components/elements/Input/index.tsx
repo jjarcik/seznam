@@ -1,4 +1,6 @@
 import React from 'react'
+import InputWrapper from '../../blocks/InputWrapper'
+import styles from './Input.module.css'
 
 interface InputProps {
   label: string
@@ -9,10 +11,9 @@ interface InputProps {
 }
 
 const Input: React.FC<InputProps> = ({ label, type, name, onChange, value }: InputProps) => (
-  <div>
-    <label>{label}</label>
-    <input type={type} name={name} onChange={onChange} value={value || ''} />
-  </div>
+  <InputWrapper label={label}>
+    <input type={type} name={name} onChange={onChange} value={value || ''} className={styles.base}/>
+  </InputWrapper>
 )
 
 export default Input

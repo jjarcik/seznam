@@ -11,7 +11,7 @@ export const useInitProductsList = (): void => {
   const dispatch = useDispatch()
   // do it once
   useEffect(() => {
-    // fetch data - fake API
+    // get data - like a fake API
     const productList = initProductList(api.products)
     dispatch(productList)
   }, [dispatch])
@@ -25,7 +25,7 @@ export const useInitProduct = (id: number | string): void => {
   const dispatch = useDispatch()
   // do it once
   useEffect(() => {
-    // fetch data - fake API
+    // get data - like a fake API
     const product = api.products.find((product) => product.id === Number(id))
     // if product exists
     if (product) {

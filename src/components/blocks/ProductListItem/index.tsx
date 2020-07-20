@@ -5,13 +5,15 @@ import styles from './ProductListItem.module.css'
 
 const ProductListItem: FC<ProductListItemType> = ({ id, name, image, price, perex }: ProductListItemType) => (
   <article className={styles.base}>
-    <img src={image} alt={name} className={styles.image} />
+    <div className={styles.imageWrapper}>
+      <img src={image} alt={name} className={styles.image} />
+    </div>
     <div>
       <Link to={`/detail/${id}`} className={styles.name}>
         {name}
       </Link>
       <span className={styles.price}>{price}</span>
-      <p>{perex}</p>
+      <p className={styles.perex}>{perex}</p>
     </div>
   </article>
 )
