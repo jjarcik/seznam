@@ -8,6 +8,7 @@ const options = {
   os: [
     { value: 'android', label: 'Android' },
     { value: 'ios', label: 'iOS' },
+    { value: 'Nokia OS', label: 'Nokia OS' },
   ],
 }
 

@@ -1,0 +1,131 @@
+{
+    "products": [
+        { 
+            "id": 1,
+            "name": "Xiaomi Mi Note 10",
+            "image": "https://d25-a.sdn.cz/d_25/c_img_E_Ia/YWw8gc.jpeg?fl=res,350,350,1|webp,80",
+            "perex": "Xiaomi představil novou smartphonovou špičku. Elegantní a superrychlý smartphone Xiaomi Mi Note 10 vyniká dlouhou výdrží, rychlým…",
+            "text": "Xiaomi představil novou smartphonovou špičku. Elegantní a superrychlý smartphone Xiaomi Mi Note 10 vyniká dlouhou výdrží, rychlým a stabilním provozem, ale především svým pokročilým pětinásobným fotoaparátem",
+            "params": {
+                "cores": 7,
+                "touchscreen": "yes",
+                "os": "android"
+            }
+        },
+        {
+            "id": 2,
+            "name": "Nokia 2.3",
+            "image": "https://d25-a.sdn.cz/d_25/c_img_G_Iw/2ODs5t.jpeg?fl=res,350,350,1|webp,80",
+            "perex": "U tohoto chytrého telefonu s nízkou cenou získáte solidního partnera pro komunikaci i zábavu. Pobavte se streamováním médií…",
+            "text": "U tohoto chytrého telefonu s nízkou cenou získáte solidního partnera pro komunikaci i zábavu. Pobavte se streamováním médií pomocí připojení LTE, určitě oceníte také systém Android One, v jehož rámci máte zaručené aktualizace.",
+            "params": {
+                "cores": 7,
+                "touchscreen": "yes",
+                "os": "android"
+            }
+        },
+        {
+            "id": 3,
+            "name": "Motorola One Fusion+" ,
+            "image": "https://d25-a.sdn.cz/d_25/c_img_gY_G/prexoi.jpeg?fl=res,350,350,1|webp,80",
+            "perex": "Motorola One Fusion+ se může pochlubit čtyřnásobnou soustavou kvalitních objektivů na zadní straně telefonu, se kterými pořídíte…",
+            "text": "Motorola One Fusion+ se může pochlubit čtyřnásobnou soustavou kvalitních objektivů na zadní straně telefonu, se kterými pořídíte perfektně vyladěné fotky. Navíc může nabídnout 5000mAh baterii, která zajistí dlouhou výdrž při maximálním využívání.",
+            "params": {
+                "cores": 7,
+                "touchscreen": "yes",
+                "os": "android"
+            }
+        },
+        {
+            "id": 4,
+            "name": "Apple iPhone SE, 64 GB bílý",
+            "price": "11 700 Kč – 17 021 Kč",
+            "image": "https://d25-a.sdn.cz/d_25/c_img_E_JV/tuoBUCe.jpeg?fl=res,350,350,1|webp,80",
+            "perex": "iPhone SE druhé genereace je skvělou volbou mezi telefony od společnosti Apple na poměr cena/výkon. Od svých předchůdců se…",
+            "text": "iPhone SE druhé genereace je skvělou volbou mezi telefony od společnosti Apple na poměr cena/výkon. Od svých předchůdců se inspiroval oblíbenými rozměry a využil výkonných technologií, které mu dodávají na jedinečnosti.",
+            "params": {
+                "cores": 2,
+                "touchscreen": "yes",
+                "os": "iOS"
+            }
+        },
+        {
+            "id": 5,
+            "name": "Apple iPhone 7",
+            "price": "11 700 Kč – 17 021 Kč",
+            "image": "https://d25-a.sdn.cz/d_25/c_img_G_Bb/SCMBumr.jpeg?fl=res,350,350,1|webp,80",
+            "perex": "iPhone 7 je dalším skvělým vývojovým stádiem mezi telefony značky Apple. Jako první iPhone přichází s odolností proti prachu a…",
+            "text": "iPhone 7 je dalším skvělým vývojovým stádiem mezi telefony značky Apple. Jako první iPhone přichází s odolností proti prachu a vodě, stereo reproduktory, Lightning sluchátky místo klasických a nabízí i zcela přepracované tlačítko domácí obrazovky.",
+            "params": {
+                "cores": 2,
+                "touchscreen": "yes",
+                "os": "iOS"
+            }
+        },
+        {
+            "id": 6,
+            "name": "Apple iPhone 8",
+            "price": "5 600 Kč – 13 490 Kč",
+            "image": "https://d25-a.sdn.cz/d_25/c_img_E_JV/tuoBUCe.jpeg?fl=res,350,350,1|webp,80",
+            "perex": "Výjimečně chytrý a zároveň stylový smartphone Apple iPhone 8 je další povedenou evolucí v rámci této značky. Jeho zadní…",
+            "text": "Výjimečně chytrý a zároveň stylový smartphone Apple iPhone 8 je další povedenou evolucí v rámci této značky. Jeho zadní fotoaparát je nyní ještě lepší a předním fotoaparátem si pořídíte dokonalé selfie",
+            "params": {
+                "cores": 2,
+                "touchscreen": "yes",
+                "os": "iOS"
+            }
+        },
+        {
+            "id": 7,
+            "name": "Apple iPhone 5S",
+            "price": "11 700 Kč – 17 021 Kč",
+            "image": "https://d25-a.sdn.cz/d_25/c_img_E_JV/tuoBUCe.jpeg?fl=res,350,350,1|webp,80",
+            "perex": "Apple iPhone 5S s odlehčeným designem je opravdový skvost doladěný do každého detailu. Disponuje operačním systémem iOS, který…",
+            "text": "Apple iPhone 5S s odlehčeným designem je opravdový skvost doladěný do každého detailu. Disponuje operačním systémem iOS, který vám vše zobrazí na přehledném 4\" Retina displeji s rozlišením 1163 × 640 bodů.",
+            "params": {
+                "cores": 2,
+                "touchscreen": "yes",
+                "os": "iOS"
+            }
+        },
+        {
+            "id": 8,
+            "name": "Samsung Galaxy A51 (A515F)",
+            "price": "11 700 Kč – 17 021 Kč",
+            "image": "https://d25-a.sdn.cz/d_25/c_img_E_It/uu0td7.jpeg?fl=res,350,350,1|webp,80",
+            "perex": "Objevte široký rozhled s 6,5\" celoplošným displejem Infinity-O Super AMOLED. Samsung Galaxy A51 navazuje na kvality oblíbeného…",
+            "text": "Objevte široký rozhled s 6,5\" celoplošným displejem Infinity-O Super AMOLED. Samsung Galaxy A51 navazuje na kvality oblíbeného modelu A50 z loňského roku a přináší další inovace pro vylepšení funkcí, potřeb komunikace, sdílení, fotografování a online sledování obsahu.",
+            "params": {
+                "cores": 2,
+                "touchscreen": "yes",
+                "os": "android"
+            }
+        },
+        {
+            "id": 9,
+            "name": "Nokia 3310 (2017) Single SIM",
+            "price": "11 700 Kč – 17 021 Kč",
+            "image": "https://d25-a.sdn.cz/d_25/c_img_G_EA/8xzB5AL.jpeg?fl=res,350,350,1|webp,80",
+            "perex": "Legenda mezi mobilními telefony, Nokia 3310, je zpět. A vrátila se v plné parádě. Po svém předchůdci zdědila svou ikonickou…",
+            "text": "Legenda mezi mobilními telefony, Nokia 3310, je zpět. A vrátila se v plné parádě.",
+            "params": {
+                "cores": 1,
+                "touchscreen": "no",
+                "os": "Nokia OS"
+            }
+        },
+        {
+            "id": 10,
+            "name": "Samsung Galaxy S20 (G980F)",
+            "price": "9 340 Kč – 14 740 Kč",
+            "image": "https://d25-a.sdn.cz/d_25/c_img_E_JV/tuoBUCe.jpeg?fl=res,350,350,1|webp,80",
+            "perex": "Samsung Galaxy A71 inovuje úspěšný předchozí model, který nabízí skvělý Infinity-O displej zabírající celou přední stranu. Zadní…",
+            "text": "Tahákem další generace chytrých telefonů Samsung Galaxy S jsou určitě značně vylepšené fotoaparáty, špičkový výkon, vynikající displej s velmi jemným rozlišením a vysokou obnovovací frekvencí a samozřejmě skvělý design. Galaxy S opět míří na vrchol a mění způsob, jakým budete zachycovat fotografie a videa.",
+            "params": {
+                "cores": 2,
+                "touchscreen": "yes",
+                "os": "android"
+            }
+        }
+    ]
+}

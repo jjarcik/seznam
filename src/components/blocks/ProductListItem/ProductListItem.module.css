@@ -1,0 +1,14 @@
+.base{
+    display: flex;
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.image{
+    max-height: 128px;
+    padding: 8px;
+}
