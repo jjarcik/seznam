@@ -11,6 +11,7 @@ const reducer: Reducer<ProductsState> = (state: ProductsState = initialState, ac
       return { ...state, items: action.payload.items }
     case '@@products/PRODUCT_INIT':
       const newState = { ...state }
+      console.log(state)
       const existingProduct = state.items.findIndex((p) => p.id === action.payload.id)
       if (existingProduct >= 0) {
         newState.items[existingProduct] = action.payload

@@ -31,7 +31,7 @@ export const useInitProduct = (id: number | string): void => {
     if (product) {
       dispatch(initProduct(product))
     } else {
-      throw new Error('Product not found')
+      throw new Error(`Product with id ${id} not found`)
     }
   }, [id, dispatch])
 }

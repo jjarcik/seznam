@@ -17,7 +17,7 @@ export const reducers: Reducer<ApplicationState> = combineReducers<ApplicationSt
   filter: filterReducer,
 })
 
-const initialState = {
+export const initialState = {
   products: {
     items: [],
   },
