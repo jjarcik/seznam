@@ -4,8 +4,6 @@ import Main from '../../layouts/Main'
 import Detail from '../../views/Detail'
 import Home from '../../views/Home'
 
-import './App.css'
-
 function App() {
   return (
     <Router>

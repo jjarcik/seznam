@@ -1,0 +1,13 @@
+.base{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 980px) {
+    .base{
+        display: flex;
+        flex-direction: row;
+        max-width: 1200px;
+        margin: auto;
+    }
+}

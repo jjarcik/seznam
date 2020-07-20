@@ -12,7 +12,7 @@ interface InputProps {
 
 const Input: React.FC<InputProps> = ({ label, type, name, onChange, value }: InputProps) => (
   <InputWrapper label={label}>
-    <input type={type} name={name} onChange={onChange} value={value || ''} className={styles.base}/>
+    <input type={type} name={name} onChange={onChange} value={value || ''} className={styles.base} placeholder="Zadejte text" />
   </InputWrapper>
 )
 

@@ -1,0 +1,15 @@
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 20px 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+ul li {
+    padding: 5px 15px;
+}

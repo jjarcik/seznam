@@ -1,0 +1,9 @@
+.lgVisible{
+    display: block;
+}
+
+@media (min-width: 980px) {
+    .lgHide{
+        display: none;
+    }
+}

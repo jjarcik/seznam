@@ -16,8 +16,10 @@ export interface Product {
 
 export interface ProductParams {
   cores?: number
-  touchscreen?: 'yes' | 'no'
-  os?: 'android' | 'ios' | 'Nokia OS'
+  touchscreen?: 'Ano' | 'Ne'
+  os?: 'Android' | 'IOs' | 'Nokia OS'
+  screen?: string
+  memory?: string
 }
 
 export interface ProductListInitAction extends Action {

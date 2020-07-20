@@ -6,8 +6,8 @@ import { FilterInputProps } from './types'
 
 const options = {
   touchscreen: [
-    { value: 'yes', label: 'Ano' },
-    { value: 'no', label: 'Ne' },
+    { value: 'Ano', label: 'Ano' },
+    { value: 'Ne', label: 'Ne' },
   ],
 }
 

@@ -9,8 +9,10 @@
             "text": "Xiaomi představil novou smartphonovou špičku. Elegantní a superrychlý smartphone Xiaomi Mi Note 10 vyniká dlouhou výdrží, rychlým a stabilním provozem, ale především svým pokročilým pětinásobným fotoaparátem",
             "params": {
                 "cores": "9",
-                "touchscreen": "yes",
-                "os": "android"
+                "touchscreen": "Ano",
+                "os": "Android",
+                "screen": "15\"",
+                "memory": "12 GB"
             }
         },
         {
@@ -22,8 +24,10 @@
             "text": "U tohoto chytrého telefonu s nízkou cenou získáte solidního partnera pro komunikaci i zábavu. Pobavte se streamováním médií pomocí připojení LTE, určitě oceníte také systém Android One, v jehož rámci máte zaručené aktualizace.",
             "params": {
                 "cores": "8",
-                "touchscreen": "yes",
-                "os": "android"
+                "touchscreen": "Ano",
+                "os": "Android",
+                "screen": "12\"",
+                "memory": "2048 MB"
             }
         },
         {
@@ -35,8 +39,10 @@
             "text": "Motorola One Fusion+ se může pochlubit čtyřnásobnou soustavou kvalitních objektivů na zadní straně telefonu, se kterými pořídíte perfektně vyladěné fotky. Navíc může nabídnout 5000mAh baterii, která zajistí dlouhou výdrž při maximálním využívání.",
             "params": {
                 "cores": "7",
-                "touchscreen": "yes",
-                "os": "android"
+                "touchscreen": "Ano",
+                "os": "Android",
+                "screen": "13\"",
+                "memory": "16 GB"
             }
         },
         {
@@ -48,8 +54,10 @@
             "text": "iPhone SE druhé genereace je skvělou volbou mezi telefony od společnosti Apple na poměr cena/výkon. Od svých předchůdců se inspiroval oblíbenými rozměry a využil výkonných technologií, které mu dodávají na jedinečnosti.",
             "params": {
                 "cores": "6",
-                "touchscreen": "yes",
-                "os": "iOS"
+                "touchscreen": "Ano",
+                "os": "iOS",
+                "screen": "18\"",
+                "memory": "16 GB"
             }
         },
         {
@@ -61,8 +69,10 @@
             "text": "iPhone 7 je dalším skvělým vývojovým stádiem mezi telefony značky Apple. Jako první iPhone přichází s odolností proti prachu a vodě, stereo reproduktory, Lightning sluchátky místo klasických a nabízí i zcela přepracované tlačítko domácí obrazovky.",
             "params": {
                 "cores": "5",
-                "touchscreen": "yes",
-                "os": "iOS"
+                "touchscreen": "Ano",
+                "os": "iOS",
+                "screen": "16\"",
+                "memory": "6 GB"
             }
         },
         {
@@ -74,8 +84,10 @@
             "text": "Výjimečně chytrý a zároveň stylový smartphone Apple iPhone 8 je další povedenou evolucí v rámci této značky. Jeho zadní fotoaparát je nyní ještě lepší a předním fotoaparátem si pořídíte dokonalé selfie",
             "params": {
                 "cores": "4",
-                "touchscreen": "yes",
-                "os": "iOS"
+                "touchscreen": "Ano",
+                "os": "iOS",
+                "screen": "12\"",
+                "memory": "8 GB"
             }
         },
         {
@@ -87,8 +99,10 @@
             "text": "Apple iPhone 5S s odlehčeným designem je opravdový skvost doladěný do každého detailu. Disponuje operačním systémem iOS, který vám vše zobrazí na přehledném 4\" Retina displeji s rozlišením 1163 × 640 bodů.",
             "params": {
                 "cores": "3",
-                "touchscreen": "yes",
-                "os": "iOS"
+                "touchscreen": "Ano",
+                "os": "iOS",
+                "screen": "19\"",
+                "memory": "2 GB"
             }
         },
         {
@@ -100,8 +114,10 @@
             "text": "Objevte široký rozhled s 6,5\" celoplošným displejem Infinity-O Super AMOLED. Samsung Galaxy A51 navazuje na kvality oblíbeného modelu A50 z loňského roku a přináší další inovace pro vylepšení funkcí, potřeb komunikace, sdílení, fotografování a online sledování obsahu.",
             "params": {
                 "cores": "2",
-                "touchscreen": "yes",
-                "os": "android"
+                "touchscreen": "Ano",
+                "os": "Android",
+                "screen": "6.5\"",
+                "memory": "256 MB"
             }
         },
         {
@@ -113,8 +129,10 @@
             "text": "Legenda mezi mobilními telefony, Nokia 3310, je zpět. A vrátila se v plné parádě.",
             "params": {
                 "cores": "1",
-                "touchscreen": "no",
-                "os": "Nokia OS"
+                "touchscreen": "Ne",
+                "os": "Nokia OS",
+                "screen": "5\"",
+                "memory": "32 MB"
             }
         },
         {
@@ -126,8 +144,10 @@
             "text": "Tahákem další generace chytrých telefonů Samsung Galaxy S jsou určitě značně vylepšené fotoaparáty, špičkový výkon, vynikající displej s velmi jemným rozlišením a vysokou obnovovací frekvencí a samozřejmě skvělý design. Galaxy S opět míří na vrchol a mění způsob, jakým budete zachycovat fotografie a videa.",
             "params": {
                 "cores": "10",
-                "touchscreen": "yes",
-                "os": "android"
+                "touchscreen": "Ano",
+                "os": "Android",
+                "screen": "18\"",
+                "memory": "2 GB"
             }
         }
     ]

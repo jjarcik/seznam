@@ -1,6 +1,6 @@
 .base{
     display: flex;
-    padding: 8px;
+    padding: 16px 8px;
     border-bottom: 1px solid #ccc;
 }
 

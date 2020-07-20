@@ -1,0 +1,15 @@
+.base{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.images {
+    padding: 0 20px;
+}
+
+@media (min-width: 980px) {
+    .base{
+        flex-direction: row;
+    }
+}

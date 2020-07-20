@@ -4,6 +4,7 @@ import Button from '../../elements/Button'
 import Aside from '../../elements/Aside'
 import HeaderFilter from '../../blocks/HeaderFilter'
 import { H6 } from '../../elements/Heading'
+import Box from '../../elements/Box'
 import FilterName from './FilterName'
 import FilterCores from './FilterCores'
 import FilterToucheScreen from './FilterToucheScreen'
@@ -28,19 +29,23 @@ const Filters: React.FC = () => {
   const toggleFilters = useCallback(() => open(!isOpen), [isOpen])
 
   return (
-    <>
+    <section>
       <Aside isOpen={isOpen}>
-        <HeaderFilter>
-          <H6>Filtry a řazení</H6>
-          <Button text="Hotovo" onClick={toggleFilters} fluid={false}/>
-        </HeaderFilter>
+        <Box lgVisible={false}>
+          <HeaderFilter>
+            <H6>Filtry a řazení</H6>
+            <Button text="Hotovo" onClick={toggleFilters} fluid={false} />
+          </HeaderFilter>
+        </Box>
         <FilterName onChange={onChange} />
         <FilterCores onChange={onChange} />
         <FilterToucheScreen onChange={onChange} />
         <FilterOS onChange={onChange} />
       </Aside>
-      <Button text="Filtry a řazení" onClick={toggleFilters} />
-    </>
+      <Box lgVisible={false}>
+        <Button text="Filtry a řazení" onClick={toggleFilters} />
+      </Box>
+    </section>
   )
 }
 

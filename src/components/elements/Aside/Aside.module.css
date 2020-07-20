@@ -6,6 +6,8 @@
     transition: all 0.4s;
     padding: 15px;
     top: 0;
+
+    
 }
 
 .open{
@@ -15,3 +17,11 @@
 .close{
     left: 100%;
 }
+
+@media (min-width: 980px) {
+    .aside{
+        position: relative;
+        left: 0;
+        width: 100%;
+    }
+  }

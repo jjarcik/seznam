@@ -6,8 +6,8 @@ import { FilterInputProps } from './types'
 
 const options = {
   os: [
-    { value: 'android', label: 'Android' },
-    { value: 'ios', label: 'iOS' },
+    { value: 'Android', label: 'Android' },
+    { value: 'iOS', label: 'iOS' },
     { value: 'Nokia OS', label: 'Nokia OS' },
   ],
 }

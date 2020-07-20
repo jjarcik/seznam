@@ -1,0 +1,21 @@
+.base{
+    padding: 0;
+    margin: 10px 0 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 12px;
+}
+
+.base li{
+    padding: 0 8px 0 0;
+    margin-right: 8px;
+    border-right: 1px solid #ccc;
+}
+
+
+.base li:last-child{
+    margin-right: 0px;
+    border-right: 0;
+    padding: 0
+}
