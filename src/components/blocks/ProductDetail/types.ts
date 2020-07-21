@@ -1,6 +1,6 @@
 import { ProductParams } from '../../../store/reducers/products/types'
 
-export interface ProductDetilType {
+export interface ProductDetailType {
   name: string
   image: string
   text: string

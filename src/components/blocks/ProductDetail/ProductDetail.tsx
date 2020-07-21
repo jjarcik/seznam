@@ -1,9 +1,9 @@
 import React from 'react'
-import { ProductDetilType } from './types'
+import { ProductDetailType } from './types'
 import { H1 } from '../../elements/Heading'
 import styles from './ProductDetail.module.css'
 
-const ProductDetail: React.FC<ProductDetilType> = ({ name, image, text, params }: ProductDetilType) => (
+const ProductDetail: React.FC<ProductDetailType> = ({ name, image, text, params }: ProductDetailType) => (
   <article className={styles.base}>
     <section className={styles.images}>
       <img src={image} alt={name} />
