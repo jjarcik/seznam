@@ -21,3 +21,4 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Deploy
+See [https://travis-ci.org/](https://travis-ci.org/)
