@@ -11,6 +11,7 @@ test('with redux - display text "loading" while fetching data from API', () => {
 
 test('with redux - render product detail with data from API', () => {
   const initialReduxState = {
+    filter: {},
     products: {
       items: api.products,
     },
