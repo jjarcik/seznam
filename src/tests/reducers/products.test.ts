@@ -24,7 +24,7 @@ test('products items are inserted to redux store', () => {
   expect(newState.items).toBe(api.products)
 })
 
-test('products items are inserted to redux store', () => {
+test('product item is inserted to redux store and there is only one product with same id', () => {
   expect(initialState.items).toHaveLength(0)
   const newState = reducer(initialState, action2)
   expect(newState.items).toHaveLength(1)
