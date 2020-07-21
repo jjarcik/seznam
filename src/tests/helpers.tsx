@@ -4,12 +4,16 @@ import { Provider } from 'react-redux'
 import { render } from '@testing-library/react'
 import { reducers, initialState } from '../store'
 
-export function renderWithRedux(
-  ui,
-  { initialReduxState = initialState, store = createStore(reducers, initialReduxState), ...renderOptions } = {},
-) {
-  function Wrapper({ children }) {
+interface WrapperType {
+  children: React.ReactNode
+}
+
+export function renderWithRedux(ui: React.ReactElement, initialReduxState = initialState): React.ReactElement {
+  const store = createStore(reducers, initialReduxState)
+
+  function Wrapper({ children }: WrapperType): React.ReactElement {
     return <Provider store={store}>{children}</Provider>
   }
-  return render(ui, { wrapper: Wrapper, ...renderOptions })
+
+  return render(ui, { wrapper: Wrapper as React.FC })
 }

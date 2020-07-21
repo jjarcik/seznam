@@ -15,6 +15,6 @@ test('render product detail with data from API', () => {
       items: api.products,
     },
   }
-  renderWithRedux(<ProductDetail id={1} />, { initialReduxState })
+  renderWithRedux(<ProductDetail id={1} />, initialReduxState)
   expect(screen.getByText('Xiaomi Mi Note 10')).toBeInTheDocument()
 })
