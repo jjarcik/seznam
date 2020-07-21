@@ -6,9 +6,7 @@ test('ProductDetail - name and text is rendered ', () => {
   const { getByText } = render(<ProductDetail name="abc" image="image" text="description of product" />)
   const name = getByText(/abc/i)
   const text = getByText(/description of product/i)
-  // test of name
   expect(name).toBeInTheDocument()
-  // test of text
   expect(text).toBeInTheDocument()
 })
 

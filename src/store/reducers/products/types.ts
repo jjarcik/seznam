@@ -15,7 +15,7 @@ export interface Product {
 }
 
 export interface ProductParams {
-  cores?: number
+  cores?: number | string
   touchscreen?: 'Ano' | 'Ne'
   os?: 'Android' | 'IOs' | 'Nokia OS'
   screen?: string

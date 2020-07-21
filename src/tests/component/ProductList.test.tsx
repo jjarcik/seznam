@@ -29,7 +29,7 @@ const items = [
   },
 ]
 
-test('ProductList - products are rendered ', () => {
+test('ProductList - products are rendered', () => {
   const history = createMemoryHistory()
   const { getByText } = render(
     <Router history={history}>

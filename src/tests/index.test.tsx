@@ -9,7 +9,7 @@ test('display text loading while fetching data from API', () => {
   expect(getByText(/loading/)).toBeInTheDocument()
 })
 
-test('render product detail with data', () => {
+test('render product detail with data from API', () => {
   const initialReduxState = {
     products: {
       items: api.products,
