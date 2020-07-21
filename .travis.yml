@@ -9,7 +9,7 @@ script:
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: ${{ secrets.TRAVIS_TOKEN }}
+  github_token: 24048ab83894ab9a41df5279cb34f8ee91a10e3c
   local_dir: build
   on:
     branch: master
