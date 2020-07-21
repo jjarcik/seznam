@@ -2,6 +2,7 @@
     width: 100%;
     border: 1px solid #d2d2d2;
     background: #fff;
+    -webkit-appearance: none;
     color: #707070;
     padding:10px 40px 10px 14px;
 }
