@@ -25,7 +25,7 @@ test('selector with filter returns empty array for non existing name', () => {
   expect(productListSelectorFilterd(state)).toHaveLength(0)
 })
 
-test('selector with filter returns empty array for non existing name', () => {
+test('selector with filter returns all products with existing names', () => {
   const state2 = { ...state, filter: { name: 'Nokia' } }
   const expected = [api.products[1], api.products[8]]
   expect(productListSelectorFilterd(state2)).toHaveLength(2)
