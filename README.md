@@ -1,6 +1,8 @@
 # Zboží je boží
 <img src="./screen.gif" />
 
+https://jjarcik.github.io/seznam/
+
 ## Available Scripts
 
 In the project directory, you can run:
