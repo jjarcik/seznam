@@ -1,4 +1,4 @@
-# Jan Jarčík, zboží je boží
+# Zboží je boží
 <img src="./screen.gif" />
 
 ## Available Scripts
